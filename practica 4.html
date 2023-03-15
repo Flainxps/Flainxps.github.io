@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 4</title>
+    <style>
+        *{box-sizing: border-box;}
+        body{font-family: Impact; background-color: rgb(255, 255, 255);color:rgb(164, 0,0);}
+        header{background-color: rgb(0, 136, 247);
+        padding: 40px;
+        text-align: center;
+        font-size: 40px;
+        color: white;}
+        nav{float: left;
+        width: 100%;
+        height: 400%;
+        background-color: rgb(0, 204, 255);
+        }
+        article{float: left;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        height: 200px;
+        color: rgb(43, 52, 81);}
+        section::after{
+            content: "";
+            display: table;
+            clear: both;}
+        footer{
+        background-color: rgba(0, 225, 255, 0.979);
+        padding: 10px;
+        text-align: center;
+        color: black;}
+        @media(max-widgt: 600px){
+            nav,article{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>TF2 POSTING</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Memes</a></li>
+                <li><a href="">Plantillas</a></li>
+                <li><a href="">Destacados</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h4>Taunts</h4>
+            <p>The Schadenfreude</p>
+            <p>High five!</p>
+            <p>Boston Boarder</p>
+        </article>
+    </section>
+    <footer>TF2 POSTING fue hecho por humor UNICAMENTE
+        <p>© 2023 Valve Corporation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
